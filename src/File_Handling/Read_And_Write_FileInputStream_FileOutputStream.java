@@ -39,6 +39,8 @@ public class Read_And_Write_FileInputStream_FileOutputStream {
             // Close both streams
 
             try {
+                // Ensure we don't try to close streams that were never successfully opened
+                // (in case the file opening failed earlier)
                 if (inputFile != null) inputFile.close();
                 if (outputFile != null) outputFile.close();
             } catch (IOException e) {
