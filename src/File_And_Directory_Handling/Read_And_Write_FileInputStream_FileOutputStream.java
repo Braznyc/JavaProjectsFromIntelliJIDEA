@@ -10,7 +10,7 @@ public class Read_And_Write_FileInputStream_FileOutputStream {
     public static void main(String[] args) {
 
         FileInputStream inputFile = null;  // These 2 lines of code
-        FileOutputStream outputFile = null;// are creating 2 variables from the 2 classes (FileInputStream and FileOutputStream). Those 2 variable will behave like the classes.
+        FileOutputStream outputFile = null;// are creating 2 variables from the 2 classes (FileInputStream and FileOutputStream). Those 2 variable will behave like the classes
 
         try {
 
