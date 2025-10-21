@@ -22,7 +22,7 @@ public class Read_And_Write_FileInputStream_FileOutputStream {
 
             outputFile = new FileOutputStream("destination.txt");
 
-            // Below a variable byteDate is created to store the value the code gets from the file "source.txt". That value will be later stored to the "destination.txt" file
+            // Below a variable byteData is created to store the value the code gets from the file "source.txt". That value will be later stored to the "destination.txt" file
 
             int byteData;
 
