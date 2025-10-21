@@ -1,4 +1,4 @@
-package File_Handling;
+package File_And_Directory_Handling;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
